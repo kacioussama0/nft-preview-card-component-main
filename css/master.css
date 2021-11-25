@@ -1,0 +1,102 @@
+        * {
+            font-family: 'Outfit', sans-serif;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: hsl(217, 54%, 11%);
+        }
+        
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: hsl(215, 51%, 70%);
+        }
+        
+        div.parent {
+            width: 350px;
+            height: 600px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: hsl(216, 50%, 16%);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 25px;
+            border-radius: 15px;
+        }
+        
+        div.parent h2 {
+            margin-top: 25px;
+            margin-bottom: 5px;
+            font-size: 22px;
+        }
+        
+        div.parent p.info {
+            font-weight: 300;
+        }
+        
+        div.parent img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        
+        div.parent span.info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px hsl(215, 32%, 27%) solid;
+            font-size: 15px;
+            padding-bottom: 22px;
+        }
+        
+        div.parent span.info img {
+            width: 20Px;
+            height: 20px;
+            margin-right: 5px;
+            object-fit: contain;
+        }
+        
+        div.parent span.info span {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        div.parent span.info span:first-child {
+            color: hsl(178, 100%, 50%);
+            font-size: 16px;
+            font-weight: bold;
+        }
+        
+        div.parent span.info span:last-child {
+            color: hsl(215, 51%, 70%);
+            font-size: 16px;
+        }
+        
+        div.parent span.avatar {
+            display: flex;
+            align-items: center;
+        }
+        
+        div.parent span.avatar img {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            border: 1px solid #fff;
+        }
+        
+        div.parent span.avatar p {
+            margin-left: 15px;
+            font-size: 16px;
+        }
+        
+        span.avatar p span {
+            color: #fff !important;
+        }
